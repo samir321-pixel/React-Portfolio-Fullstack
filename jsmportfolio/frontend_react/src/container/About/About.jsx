@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import './About.scss';
 import { AppWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
-import { images } from '../../constants';
 import { motion } from 'framer-motion';
 // const abouts = [
 //     { title: 'Web Development', description: 'I am Good Web Developer', imgUrl: images.about01 },
@@ -42,4 +41,4 @@ const About = () => {
     )
 }
 
-export default About
+export default AppWrap (About, 'about');
