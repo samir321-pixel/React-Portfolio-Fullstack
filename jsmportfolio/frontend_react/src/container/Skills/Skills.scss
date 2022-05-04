@@ -41,7 +41,7 @@
         width: 90px;
         height: 90px;
         border-radius: 50%;
-        background-color: #fff;
+        background-color: #fef4f5;
 
         img {
             width: 50%;
@@ -57,7 +57,7 @@
             height: 150px;
         }
 
-        @media screen and(min-width:450px) {
+        @media screen and(max-width:450px) {
             width: 70px;
             height: 70px;
         }
