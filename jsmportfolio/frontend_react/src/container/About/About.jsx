@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './About.scss';
-
+import { AppWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
 import { images } from '../../constants';
 import { motion } from 'framer-motion';
@@ -14,6 +14,7 @@ const About = () => {
     const [abouts, setAbouts] = useState([]);
     useEffect(() => {
         const query = '*[_type=="abouts"]';
+        console.log(client.fetch(query))
         client.fetch(query)
             .then((data) => setAbouts(data))
     }, [])
@@ -34,7 +35,6 @@ const About = () => {
                         <img src={urlFor(about.imgUrl)} alt={about.title} />
                         <h2 className='bold-text' style={{ marginTop: 20 }}>{about.title}</h2>
                         <p className='p-text' style={{ marginTop: 10 }}>{about.description}</p>
-
                     </motion.div>
                 ))}
             </div>
