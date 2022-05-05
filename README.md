@@ -48,6 +48,21 @@ npm start
 The Frontend will be available at **http://localhost:3000/**.
 
 # Screenshots
+![Navbar](https://user-images.githubusercontent.com/65664404/166938653-a41548fb-2df5-4e32-a4d7-2b4021dda777.PNG)
+
+![Work](https://user-images.githubusercontent.com/65664404/166938696-0d1485f4-7431-450e-b019-46d3f01c4226.PNG)
+
+![Project](https://user-images.githubusercontent.com/65664404/166938878-a77eec16-1386-4f84-8a83-79d16e1d01c8.PNG)
+
+![Skills](https://user-images.githubusercontent.com/65664404/166938760-78196338-c737-4259-9aba-e63eb60ed450.PNG)
+
+![Testimonials](https://user-images.githubusercontent.com/65664404/166938796-6aafac38-1ad0-4848-beb9-7f3bec622f25.PNG)
+
+![Brands](https://user-images.githubusercontent.com/65664404/166938964-7d4c063f-ac8a-4047-84a8-b173c69acf2e.PNG)
+
+![Contact](https://user-images.githubusercontent.com/65664404/166938930-694b3190-ce01-4a09-a7b8-00755fa4da58.PNG)
+
+![Footer](https://user-images.githubusercontent.com/65664404/166938998-a5b3313e-f124-4b1f-bfa3-23006be08f9e.PNG)
 
 
 ## 🌏 Browser Support
