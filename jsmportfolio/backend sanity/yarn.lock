@@ -9029,6 +9029,11 @@ sanity-diff-patch@^1.0.9:
   dependencies:
     diff-match-patch "^1.0.5"
 
+sanity@^2.29.3:
+  version "2.29.3"
+  resolved "https://registry.npmjs.org/sanity/-/sanity-2.29.3.tgz#02b401f477b5d2af766f4cbc080e09f903c4d6c5"
+  integrity sha512-k4A4MzAcCp7VzdvnbQQRkmmuQuXL2jsxwmH0fzCU0uyPWi+DZDQFsZKuoxhDscTOHOhRcZh0+z1EIFs4wRbSzg==
+
 sax@~1.2.4:
   version "1.2.4"
   resolved "https://registry.npmjs.org/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
